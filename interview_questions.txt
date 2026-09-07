@@ -1,0 +1,26 @@
+Task 4 Interview Questions — Quick Answers
+
+1. Logistic vs linear regression:
+   Linear regression predicts continuous values; logistic regression predicts class probabilities.
+
+2. Sigmoid function:
+   sigmoid(z) = 1 / (1 + e^(-z)); it maps any real number to a value between 0 and 1.
+
+3. Precision vs recall:
+   Precision = correct positive predictions / all positive predictions.
+   Recall = correct positive predictions / all actual positives.
+
+4. ROC-AUC:
+   ROC shows true-positive rate vs false-positive rate at different thresholds. AUC summarizes the ranking performance; higher is generally better.
+
+5. Confusion matrix:
+   A table showing true positives, true negatives, false positives, and false negatives.
+
+6. Imbalanced classes:
+   Accuracy can be misleading. Use precision, recall, F1, ROC-AUC/PR-AUC and suitable resampling or class weights.
+
+7. Choosing threshold:
+   Choose it based on the cost of false positives vs false negatives and the desired precision/recall trade-off.
+
+8. Multi-class:
+   Yes. Logistic regression can handle multi-class classification using strategies such as one-vs-rest or multinomial logistic regression.
